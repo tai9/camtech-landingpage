@@ -61,10 +61,10 @@ section {
 .section-header p {
   margin: 10px 0 0 0;
   padding: 0;
-  font-size: 38px;
+  font-size: 28px;
   line-height: 42px;
-  font-weight: 700;
-  color: #012970;
+  font-weight: 600;
+  color: #107AB7;
 }
 
 @media (max-width: 768px) {
@@ -204,6 +204,7 @@ section {
 # Navigation Menu
 --------------------------------------------------------------*/
 /**
+* Desktop Navigation 
 */
 .navbar {
   padding: 0;
@@ -221,8 +222,7 @@ section {
   position: relative;
 }
 
-.navbar a,
-.navbar a:focus {
+.navbar a, .navbar a:focus {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -230,13 +230,12 @@ section {
   font-family: "Nunito", sans-serif;
   font-size: 16px;
   font-weight: 700;
-  color: #ffffff;
+  color: #f8f8f8;
   white-space: nowrap;
   transition: 0.3s;
 }
 
-.navbar a i,
-.navbar a:focus i {
+.navbar a i, .navbar a:focus i {
   font-size: 12px;
   line-height: 0;
   margin-left: 5px;
@@ -244,16 +243,15 @@ section {
 
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
   color: #123C54;
-
+}
 
 .navbar .getstarted {
   background: transparent;
   padding: 8px 20px;
   margin-left: 30px;
   border-radius: 4px;
-  color: #fff;
   border: 2px solid #fff;
-
+  color: #fff;
 }
 
 .navbar .getstarted:hover {
@@ -273,7 +271,7 @@ section {
   z-index: 99;
   opacity: 0;
   visibility: hidden;
-  background: #123C54;
+  background: #fff;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
   border-radius: 4px;
@@ -294,9 +292,7 @@ section {
   font-size: 12px;
 }
 
-.navbar .dropdown ul a:hover,
-.navbar .dropdown ul .active:hover,
-.navbar .dropdown ul li:hover > a {
+.navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
   color: #4154f1;
 }
 
@@ -304,6 +300,8 @@ section {
   opacity: 1;
   top: 100%;
   visibility: visible;
+  background: rgba(16, 76, 130, 0.85);
+
 }
 
 .navbar .dropdown .dropdown ul {
@@ -317,6 +315,10 @@ section {
   top: 0;
   left: 100%;
   visibility: visible;
+}
+
+.header .fixed-top .header-scrolled {
+  background-color: #08da4e;
 }
 
 @media (max-width: 1366px) {
@@ -532,21 +534,23 @@ line-height: 64px;
 # About
 --------------------------------------------------------------*/
 .about .content {
-  background-color: #f6f9ff;
-  padding: 40px;
+  background-color: #107AB7;
+  padding: 10% 14%;
+  color: #fff;
 }
 
 .about h3 {
+  margin-bottom: 30px;
   font-size: 14px;
   font-weight: 700;
-  color: #4154f1;
+  color: #4154f1; 
   text-transform: uppercase;
 }
 
 .about h2 {
-  font-size: 24px;
-  font-weight: 700;
-  color: #012970;
+  font-size: 40px;
+  font-weight: 200;
+  color: #fff;
 }
 
 .about p {
@@ -1523,12 +1527,9 @@ line-height: 64px;
 # Recent Blog Posts
 --------------------------------------------------------------*/
 .recent-blog-posts .post-box {
-  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
   transition: 0.3s;
   height: 100%;
   overflow: hidden;
-  padding: 30px;
-  border-radius: 8px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -1714,6 +1715,32 @@ line-height: 64px;
 /*--------------------------------------------------------------
 # Blog
 --------------------------------------------------------------*/
+.box-blog {
+  height: 130%;
+  padding-top: 20px;
+}
+.box-blog img {width: 350px}
+
+
+.box-blog .header-blog {
+  color: #123C54;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.box-blog .title-blog {
+  color: #107AB7;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.box-blog .read {
+  color: #107AB7;
+  margin-top: 10px;
+
+}
+
 .blog {
   padding: 40px 0 20px 0;
 }
@@ -2222,6 +2249,16 @@ line-height: 64px;
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
+.contact-us {
+  background: #107AB7;
+    padding: 10px 24px;
+    margin-left: 30px;
+    border-radius: 4px;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 20px;
+}
+
 .footer {
   background: #123c54;
   padding: 0 0 30px 0;
@@ -2235,12 +2272,12 @@ line-height: 64px;
 }
 
 .footer .footer-newsletter h4 {
-  font-size: 24px;
+  font-size: 35px;
   margin: 0 0 10px 0;
   padding: 0;
   line-height: 1;
-  font-weight: 700;
-  color: #012970;
+  font-weight: 300;
+  color: #123C54;
 }
 
 .footer .footer-newsletter form {
