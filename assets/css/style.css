@@ -200,6 +200,11 @@ section {
   border: 2px solid #107ab7;
 }
 
+.header.header-scrolled .dropdown span,
+.header.header-scrolled .dropdown .bi {
+  color: #123c54;
+}
+
 .product .header img {
   content: url(../img/logo-2.png);
 }
@@ -2547,7 +2552,6 @@ section {
   cursor: pointer;
 }
 
-
 /*Add css who we are*/
 .hero-who-we-are {
   background: rgb(157, 168, 172);
@@ -2567,17 +2571,16 @@ section {
   margin: 15px 0 0 0;
 }
 
-.content-who-we-are img{
+.content-who-we-are img {
   padding: 0px 50px;
   width: 90%;
   margin-top: 30px;
 }
 
-
 .team-area .name {
-  color: #107AB7;
+  color: #107ab7;
   font-weight: 600;
-font-size: 20px;
+  font-size: 20px;
 }
 
 .team-area .regency {
@@ -2590,9 +2593,8 @@ font-size: 20px;
 }
 
 .team-area {
-  background-color: #F7F7F9;
+  background-color: #f7f7f9;
 }
-
 
 /* Add css diagnostics*/
 
@@ -2613,7 +2615,6 @@ font-size: 20px;
   color: #1dd6ae;
   margin: 15px 0 0 0;
   font-size: 20px;
-
 }
 
 .hero-diagnostics h2 {
@@ -2623,7 +2624,6 @@ font-size: 20px;
   font-size: 20px;
   color: #ffffff;
 }
-
 
 .btn-visit {
   border-radius: 5px;
@@ -2661,37 +2661,162 @@ font-size: 20px;
 
 .name-product {
   font-size: 20px;
-line-height: 32px;
-font-weight: 500;
-color: #107AB7;
+  line-height: 32px;
+  font-weight: 500;
+  color: #107ab7;
 }
 
 .sumary-product {
   color: #484848;
   font-size: 16px;
-line-height: 26px;
+  line-height: 26px;
 }
 
 .btn-request {
   margin-right: 20px;
   border-radius: 5px;
-  border: 1px solid #09D3C2;
+  border: 1px solid #09d3c2;
   padding: 12px 24px;
   font-weight: bold;
   font-size: 15px;
   line-height: 24px;
   text-transform: uppercase;
-  color: #FFF;
+  color: #fff;
   display: block;
   width: fit-content;
   display: inline-block;
-  background-color: #09D3C2;
-
+  background-color: #09d3c2;
 }
 
 .btn-request:hover {
-  background-color: #FFF;
-  border: 1px solid #09D3C2;
-  color: #09D3C2;
+  background-color: #fff;
+  border: 1px solid #09d3c2;
+  color: #09d3c2;
   cursor: pointer;
+}
+.imgDetail {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.imgDetail:hover {
+  width: 105%;
+  cursor: pointer;
+}
+
+.box-feature {
+  padding: 20px;
+}
+
+.box-feature .title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  color: #107ab7;
+}
+
+.box-feature .content {
+  font-size: 16px;
+  line-height: 26px;
+  color: #767676;
+}
+
+.video .title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  color: #484848;
+}
+
+.video .content {
+  font-size: 16px;
+  line-height: 26px;
+  color: #767676;
+}
+
+.form input {
+  width: 100%;
+  margin: 10px 10px 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.38);
+  resize: none;
+}
+.form select {
+  width: 100%;
+  margin: 10px 10px 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.38);
+}
+
+.btn-submit {
+  border-radius: 5px;
+  border: 2px solid #107ab7;
+  padding: 12px 24px;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 24px;
+  text-transform: uppercase;
+  background-color: #107ab7;
+  width: fit-content;
+  display: inline-block;
+  color: #fff;
+}
+
+.btn-submit:hover {
+  background-color: #fff;
+  color: #107ab7;
+  border-radius: 5px;
+  border: 2px solid #107ab7;
+  padding: 12px 24px;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 24px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.nation {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #107ab7;
+}
+
+.location {
+  font-size: 14px;
+  line-height: 26px;
+  color: #484848;
+}
+
+.map {
+  background: url(/assets/img/map.png);
+  margin-bottom: 100px;
+  height: 500px;
+}
+
+.map .box-contact {
+  background-color: #107ab7;
+  height: 200px;
+  width: 300px;
+  margin: 300px 0 -50px 200px;
+  padding: 1.2%;
+  position: absolute;
+}
+
+.box-contact .title {
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 48px;
+  letter-spacing: -1px;
+  color: #ffffff;
+}
+
+.box-contact .content {
+  margin-top: 5px;
+  font-size: 13px;
+  line-height: 24px;
+  color: #ffffff;
 }
