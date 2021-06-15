@@ -46,7 +46,7 @@ section {
 
 .section-header {
   text-align: left;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 
 .section-header h2 {
@@ -226,6 +226,10 @@ section {
 
 .product .header .dropdown span,
 .product .header .dropdown .bi {
+  color: #123c54;
+}
+.header .dropdown span,
+.header .dropdown .bi {
   color: #123c54;
 }
 
@@ -2541,4 +2545,50 @@ section {
   text-transform: uppercase;
   color: #ffffff;
   cursor: pointer;
+}
+
+
+/*Add css who we are*/
+.hero-who-we-are {
+  background: rgb(157, 168, 172);
+}
+
+.hero-who-we-are h1 {
+  margin: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 64px;
+  color: #ffffff;
+}
+
+.hero-who-we-are h1 span {
+  color: #1dd6ae;
+  margin: 15px 0 0 0;
+}
+
+.content-who-we-are img{
+  padding: 0px 50px;
+  width: 90%;
+  margin-top: 30px;
+}
+
+
+.team-area .name {
+  color: #107AB7;
+  font-weight: 600;
+font-size: 20px;
+}
+
+.team-area .regency {
+  color: #767676;
+}
+
+.team-area .sumary {
+  color: #484848;
+  font-size: 16px;
+}
+
+.team-area {
+  background-color: #F7F7F9;
 }
