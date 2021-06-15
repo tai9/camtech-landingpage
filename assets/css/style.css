@@ -79,10 +79,10 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
-  background: #012970;
+  background: #fff;
   min-height: 40px;
   margin-top: 82px;
-  color: #fff;
+  color: #107ab7;
 }
 
 @media (max-width: 992px) {
@@ -106,7 +106,7 @@ section {
 }
 
 .breadcrumbs ol a {
-  color: #fff;
+  color: #000;
   transition: 0.3s;
 }
 
@@ -200,8 +200,32 @@ section {
   border: 2px solid #107ab7;
 }
 
-.header.header-scrolled .dropdown span,
-.header.header-scrolled .dropdown .bi {
+.product .header img {
+  content: url(../img/logo-2.png);
+}
+
+.header.header-scrolled {
+  background: #fff;
+  padding: 15px 0;
+  box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
+}
+
+.product .header .nav-link {
+  color: #123c54;
+}
+
+.header.header-scrolled img {
+  content: url(../img/logo-2.png);
+}
+
+.product .header .getstarted {
+  color: #fff;
+  background: #107ab7;
+  border: 2px solid #107ab7;
+}
+
+.product .header .dropdown span,
+.product .header .dropdown .bi {
   color: #123c54;
 }
 
@@ -2290,7 +2314,6 @@ section {
 .contact-us:hover {
   background: #123c54;
   color: #fff;
-
 }
 
 .footer {
@@ -2467,4 +2490,55 @@ section {
   text-align: center;
   font-size: 13px;
   color: #012970;
+}
+
+/*Add css product*/
+.product-area {
+  padding: 50px 0;
+}
+
+.product-area img {
+  width: 100%;
+}
+
+.product-area .content {
+  padding: 50px 50px 0;
+}
+
+.product-area .title {
+  color: #107ab7;
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.product-area .sumary {
+  font-size: 16px;
+}
+
+.product-area .btn-learn {
+  border-radius: 5px;
+  border: 1px solid #107ab7;
+  padding: 12px 24px;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #107ab7;
+}
+
+.bg-gray {
+  background-color: #f7f7f9;
+}
+
+.product-area .btn-learn:hover {
+  background-color: #107ab7;
+  border-radius: 5px;
+  border: 1px solid #107ab7;
+  padding: 12px 24px;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: pointer;
 }
