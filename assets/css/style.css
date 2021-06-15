@@ -2636,7 +2636,6 @@ section {
   color: #107ab7;
   display: block;
   width: fit-content;
-  display: inline-block;
 }
 
 .btn-visit:hover {
