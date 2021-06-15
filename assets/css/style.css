@@ -92,8 +92,8 @@ section {
 }
 
 .breadcrumbs h2 {
-  font-size: 28px;
-  font-weight: 500;
+  font-size: 50px;
+  font-weight: 900;
 }
 
 .breadcrumbs ol {
@@ -230,7 +230,7 @@ section {
 }
 .header .dropdown span,
 .header .dropdown .bi {
-  color: #123c54;
+  color: #ffffff;
 }
 
 .header .logo {
@@ -2591,4 +2591,82 @@ font-size: 20px;
 
 .team-area {
   background-color: #F7F7F9;
+}
+
+
+/* Add css diagnostics*/
+
+.hero-diagnostics {
+  background: rgb(157, 168, 172);
+}
+
+.hero-diagnostics h1 {
+  margin: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 64px;
+  color: #ffffff;
+}
+
+.hero-diagnostics span {
+  color: #1dd6ae;
+  margin: 15px 0 0 0;
+  font-size: 20px;
+
+}
+
+.hero-diagnostics h2 {
+  margin: 15px 0 0 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+
+.btn-visit {
+  border-radius: 5px;
+  border: 1px solid #107ab7;
+  padding: 12px 24px;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #107ab7;
+  display: block;
+  width: fit-content;
+}
+
+.btn-visit:hover {
+  background-color: #107ab7;
+  border-radius: 5px;
+  border: 1px solid #107ab7;
+  padding: 12px 24px;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.sumary li {
+  list-style-type: "> ";
+  color: #484848;
+  line-height: 35px;
+  font-weight: 500;
+}
+
+.name-product {
+  font-size: 20px;
+line-height: 32px;
+font-weight: 500;
+color: #107AB7;
+}
+
+.sumary-product {
+  color: #484848;
+  font-size: 16px;
+line-height: 26px;
 }
