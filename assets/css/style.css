@@ -2636,6 +2636,7 @@ font-size: 20px;
   color: #107ab7;
   display: block;
   width: fit-content;
+  display: inline-block;
 }
 
 .btn-visit:hover {
@@ -2669,4 +2670,28 @@ color: #107AB7;
   color: #484848;
   font-size: 16px;
 line-height: 26px;
+}
+
+.btn-request {
+  margin-right: 20px;
+  border-radius: 5px;
+  border: 1px solid #09D3C2;
+  padding: 12px 24px;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #FFF;
+  display: block;
+  width: fit-content;
+  display: inline-block;
+  background-color: #09D3C2;
+
+}
+
+.btn-request:hover {
+  background-color: #FFF;
+  border: 1px solid #09D3C2;
+  color: #09D3C2;
+  cursor: pointer;
 }
