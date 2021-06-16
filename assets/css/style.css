@@ -1777,7 +1777,7 @@ section {
   padding-top: 20px;
 }
 .box-blog img {
-  width: 350px;
+  width: 100%;
 }
 
 .box-blog .header-blog {
@@ -2334,13 +2334,24 @@ section {
 }
 
 .footer .footer-newsletter h4 {
-  font-size: 35px;
+  font-size: 38px;
   margin: 0 0 10px 0;
   padding: 0;
   line-height: 1;
   font-weight: 300;
   color: #123c54;
 }
+
+@media only screen and (max-width: 480px) {
+  .footer .footer-newsletter h4 {
+    text-align: center;
+  }
+  .contact-us {
+    margin-left:0;
+  }
+} 
+
+
 
 .footer .footer-newsletter form {
   margin-top: 20px;
