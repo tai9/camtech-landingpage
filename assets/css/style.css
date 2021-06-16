@@ -2347,11 +2347,9 @@ section {
     text-align: center;
   }
   .contact-us {
-    margin-left:0;
+    margin-left: 0;
   }
-} 
-
-
+}
 
 .footer .footer-newsletter form {
   margin-top: 20px;
@@ -2580,7 +2578,7 @@ section {
 
 .content-who-we-are img {
   padding: 0px 50px;
-  width: 90%;
+  width: 95%;
   margin-top: 30px;
 }
 
@@ -2825,4 +2823,9 @@ section {
   font-size: 13px;
   line-height: 24px;
   color: #ffffff;
+}
+@media (max-width: 768px) {
+  .img-small {
+    display: none;
+  }
 }
