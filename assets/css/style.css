@@ -198,6 +198,7 @@ section {
   color: #fff;
   background: #107ab7;
   border: 2px solid #107ab7;
+  width: fit-content;
 }
 
 .header.header-scrolled .dropdown span,
@@ -232,10 +233,6 @@ section {
 .product .header .dropdown span,
 .product .header .dropdown .bi {
   color: #123c54;
-}
-.header .dropdown span,
-.header .dropdown .bi {
-  color: #ffffff;
 }
 
 .header .logo {
@@ -561,7 +558,6 @@ section {
 
 @media (max-width: 991px) {
   .hero {
-    height: auto;
     padding: 120px 0 60px 0;
   }
   .hero .hero-img {
@@ -1594,6 +1590,7 @@ section {
   position: relative;
   display: flex;
   flex-direction: column;
+  padding-bottom: 10px;
 }
 
 .recent-blog-posts .post-box .post-img {
@@ -1627,7 +1624,6 @@ section {
   display: flex;
   align-items: center;
   font-weight: 600;
-  line-height: 1;
   transition: 0.3s;
 }
 
