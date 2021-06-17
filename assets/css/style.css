@@ -2823,6 +2823,10 @@ section {
   line-height: 24px;
   color: #ffffff;
 }
+.content-video {
+  padding: 7%;
+}
+
 @media (max-width: 768px) {
   .img-small {
     display: none;
@@ -2836,6 +2840,7 @@ section {
   .post-box {
     margin: 10px;
   }
+  
 }
 
 @media (max-width: 1024px){
@@ -2845,6 +2850,16 @@ section {
   .content-who-we-are img {
     padding: 0;
   }
+  .imgDetail {
+    display: none;
+  }
+  .content-video {
+    padding: 0;
+  }
+  .img-video {
+    width: 100%;
+  }
+
 }
 
 
@@ -2876,3 +2891,4 @@ section {
     text-align: center;
   }
 }
+
