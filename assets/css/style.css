@@ -2827,6 +2827,10 @@ section {
   padding: 7%;
 }
 
+.content-tech {
+  padding: 5%;
+}
+
 @media (max-width: 768px) {
   .img-small {
     display: none;
@@ -2840,7 +2844,9 @@ section {
   .post-box {
     margin: 10px;
   }
-  
+  .content-tech {
+    padding: 0;
+  }
 }
 
 @media (max-width: 1024px){
