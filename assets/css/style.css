@@ -1584,6 +1584,7 @@ section {
 # Recent Blog Posts
 --------------------------------------------------------------*/
 .recent-blog-posts .post-box {
+  margin: 10px;
   transition: 0.3s;
   height: 100%;
   overflow: hidden;
@@ -2612,7 +2613,6 @@ section {
   font-style: normal;
   font-weight: normal;
   font-size: 30px;
-  line-height: 64px;
   color: #ffffff;
 }
 
@@ -2834,11 +2834,17 @@ section {
   .img-product {
     margin-top: 20px;
   }
+  .post-box {
+    margin: 10px;
+  }
 }
 
 @media (max-width: 1024px){
   .product-area .content {
     padding: 8px;
+  }
+  .content-who-we-are img {
+    padding: 0;
   }
 }
 
@@ -2850,5 +2856,16 @@ section {
   .product-area .btn-learn {
     display: block;
     text-align: center;
+  }
+  .breadcrumbs h2 {
+    font-size: 40px;
+  }
+
+  .btn-visit {
+    width: 100%;
+    text-align: center;
+  }
+  .content-who-we-are img {
+    width: 100%;
   }
 }
