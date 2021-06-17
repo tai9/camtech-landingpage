@@ -2835,6 +2835,12 @@ section {
   padding: 0 7%
 }
 
+.navbar-mobile .getstarted {
+  color: #fff;
+  background: #107ab7;
+  border: 2px solid #107ab7;
+}
+
 @media (max-width: 768px) {
   .img-small {
     display: none;
