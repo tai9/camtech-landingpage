@@ -2831,6 +2831,10 @@ section {
   padding: 5%;
 }
 
+.info {
+  padding: 0 7%
+}
+
 @media (max-width: 768px) {
   .img-small {
     display: none;
@@ -2865,7 +2869,10 @@ section {
   .img-video {
     width: 100%;
   }
-
+  .info {
+    padding: 1%;
+    margin-top: 5%  ;
+  }
 }
 
 
@@ -2895,6 +2902,10 @@ section {
   .btn-request {
     width: 100%;
     text-align: center;
+  }
+
+  .box-contact {
+    display: none;
   }
 }
 
