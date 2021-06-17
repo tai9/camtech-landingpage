@@ -2677,10 +2677,9 @@ section {
 }
 
 .btn-request {
-  margin-right: 20px;
   border-radius: 5px;
   border: 1px solid #09d3c2;
-  padding: 12px 24px;
+  padding: 12px 10%;
   font-weight: bold;
   font-size: 15px;
   line-height: 24px;
@@ -2867,5 +2866,13 @@ section {
   }
   .content-who-we-are img {
     width: 100%;
+  }
+  .contact-us {
+    display: block;
+  }
+
+  .btn-request {
+    width: 100%;
+    text-align: center;
   }
 }
