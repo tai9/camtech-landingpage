@@ -2828,4 +2828,27 @@ section {
   .img-small {
     display: none;
   }
+  .product-area .content {
+    padding: 0;
+  }
+  .img-product {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 1024px){
+  .product-area .content {
+    padding: 8px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .product-area .content {
+    padding: 8px;
+  }
+  .product-area .btn-learn {
+    display: block;
+    text-align: center;
+  }
 }
