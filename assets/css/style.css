@@ -197,6 +197,7 @@ section {
   color: #123c54;
 }
 
+
 .product .header img {
   content: url(../img/logo-2.png);
 }
@@ -208,7 +209,7 @@ section {
 }
 
 .product .header .nav-link {
-  color: #ffffff;
+  color: #123c54;
 }
 
 .header.header-scrolled img {
@@ -223,7 +224,7 @@ section {
 
 .product .header .dropdown span,
 .product .header .dropdown .bi {
-  color: #ffffff;
+  color: #123c54;
 }
 
 .header .logo {
@@ -483,6 +484,14 @@ section {
 
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
+}
+
+.product .header .navbar-mobile .nav-link {
+  color: #ffffff;
+}
+
+.product .header .navbar-mobile .dropdown span, .product .header .navbar-mobile .dropdown .bi {
+  color: #ffffff;
 }
 
 
