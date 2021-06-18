@@ -1,13 +1,4 @@
-/**
-* Template Name: FlexStart - v1.4.0
-* Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 :root {
   scroll-behavior: smooth;
 }
@@ -217,7 +208,7 @@ section {
 }
 
 .product .header .nav-link {
-  color: #123c54;
+  color: #ffffff;
 }
 
 .header.header-scrolled img {
@@ -232,7 +223,7 @@ section {
 
 .product .header .dropdown span,
 .product .header .dropdown .bi {
-  color: #123c54;
+  color: #ffffff;
 }
 
 .header .logo {
@@ -346,7 +337,7 @@ section {
 }
 
 .navbar .dropdown ul a i {
-  font-size: 12px;
+  font-size: 24px;
 }
 
 .navbar .dropdown ul a:hover,
@@ -420,7 +411,7 @@ section {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(1, 22, 61, 0.9);
+  background: #107AB7;
   transition: 0.3s;
 }
 
@@ -437,23 +428,23 @@ section {
   right: 15px;
   bottom: 15px;
   left: 15px;
-  padding: 10px 0;
+  padding: 20% 0;
   border-radius: 10px;
-  background-color: #fff;
+  background-color: #107AB7;
   overflow-y: auto;
   transition: 0.3s;
 }
 
 .navbar-mobile a {
   padding: 10px 20px;
-  font-size: 15px;
-  color: #012970;
+  font-size: 30px;
+  color: #ffffff;
 }
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover > a {
-  color: #4154f1;
+  color: #ffffff;
 }
 
 .navbar-mobile .getstarted {
@@ -481,7 +472,7 @@ section {
 }
 
 .navbar-mobile .dropdown ul a i {
-  font-size: 12px;
+  font-size: 24px;
 }
 
 .navbar-mobile .dropdown ul a:hover,
@@ -493,6 +484,7 @@ section {
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
 }
+
 
 /*--------------------------------------------------------------
 # Hero Section
@@ -2795,9 +2787,10 @@ section {
 }
 
 .map {
-  background: url(/assets/img/map.png);
+  background-image: url(/assets/img/map.png);
   margin-bottom: 100px;
   height: 500px;
+  background-repeat:round;
 }
 
 .map .box-contact {
@@ -2832,7 +2825,7 @@ section {
 }
 
 .info {
-  padding: 0 7%
+  padding: 0 7%;
 }
 
 .navbar-mobile .getstarted {
@@ -2859,7 +2852,7 @@ section {
   }
 }
 
-@media (max-width: 1024px){
+@media (max-width: 1024px) {
   .product-area .content {
     padding: 8px;
   }
@@ -2877,10 +2870,9 @@ section {
   }
   .info {
     padding: 1%;
-    margin-top: 5%  ;
+    margin: 5% 0 0 3%;
   }
 }
-
 
 @media (max-width: 480px) {
   .product-area .content {
@@ -2913,5 +2905,8 @@ section {
   .box-contact {
     display: none;
   }
-}
 
+  .map {
+    height: 100%;
+  }
+}
