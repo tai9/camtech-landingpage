@@ -177,9 +177,6 @@ section {
   box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
 }
 
-.header.header-scrolled .nav-link {
-  color: #123c54;
-}
 
 .header.header-scrolled img {
   content: url(../img/logo-2.png);
@@ -191,12 +188,6 @@ section {
   border: 2px solid #107ab7;
   width: fit-content;
 }
-
-.header.header-scrolled .dropdown span,
-.header.header-scrolled .dropdown .bi {
-  color: #123c54;
-}
-
 
 .product .header img {
   content: url(../img/logo-2.png);
@@ -494,6 +485,14 @@ section {
   color: #ffffff;
 }
 
+.header.header-scrolled .navbar-mobile .nav-link {
+  color: #ffffff;
+}
+
+.header.header-scrolled .navbar-mobile .dropdown span,
+.header.header-scrolled .navbar-mobile .dropdown .bi {
+  color: #ffffff;
+}
 
 /*--------------------------------------------------------------
 # Hero Section
