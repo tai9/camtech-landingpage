@@ -257,6 +257,7 @@ section {
 .navbar li {
   position: relative;
   width: fit-content;
+  padding: 0 10px;
 }
 
 .header .navbar a,
@@ -2673,6 +2674,32 @@ section {
   cursor: pointer;
 }
 
+.btn-visit-footer {
+  border-radius: 5px;
+  border: 1px solid #107ab7;
+  padding: 12px 24px;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #107ab7;
+  display: block;
+  width: fit-content;
+}
+
+.btn-visit-footer:hover {
+  background-color: #107ab7;
+  border-radius: 5px;
+  border: 1px solid #107ab7;
+  padding: 12px 24px;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: pointer;
+}
+
 .btn-download {
   border-radius: 5px;
   border: 1px solid #107ab7;
@@ -2871,7 +2898,7 @@ section {
 }
 
 .content-tech {
-  padding: 5%;
+  padding: 2%;
 }
 
 .info {
@@ -2933,6 +2960,11 @@ section {
 }
 
 @media (max-width: 480px) {
+  .btn-download {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+  }
   .product-area .content {
     padding: 8px;
   }
@@ -2986,7 +3018,6 @@ section {
 
 .product-description {
   padding: 5%;
-  background-color: #107AB7;
 }
 
 .product-description .header {
@@ -2995,10 +3026,10 @@ section {
   font-size: 35px;
   line-height: 42px;
   font-weight: 200;
-  color: #fff;
+  color: #107AB7;
 } 
 .product-description .sumary {
-  color: #fff;
+  color: #000;
 }
 
 .btn-down{
