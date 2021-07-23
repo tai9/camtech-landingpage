@@ -1673,6 +1673,10 @@ section {
 /*--------------------------------------------------------------
 # Recent Blog Posts
 --------------------------------------------------------------*/
+.all-product a {
+  color: #767676;
+}
+
 .recent-blog-posts .post-box {
   margin: 10px;
   transition: 0.3s;
