@@ -38,40 +38,33 @@
   <header id="header" class="header fixed-top">
     <div class="container container-xl d-flex align-items-center justify-content-between">
 
-        <a href="index.html" class="logo d-flex align-items-center">
-            <img src="assets/img/logo-2.png" alt="">
-        </a>
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/logo-2.png" alt="">
+      </a>
 
-        <nav id="navbar" class="navbar">
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto" href="index.html">Home</a></li>
+          <li class="dropdown nav-link"><a href="who-we-are.html"><span>Who We Are</span></i></a></li>
+          <li class="dropdown"><a href="product.html"><span>Products</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-                <li><a class="nav-link scrollto" href="index.html">Home</a></li>
-                <li class="dropdown"><a href="who-we-are.html"><span>Who We Are</span> <i
-                            class="bi bi-chevron-down"></i></a>
-                    <ul>
-                        <li><a href="quality-standard.html">Quality Standard</a></li>
-                    </ul>
-                </li>
-                <li class="dropdown"><a href="product.html"><span>Products</span> <i
-                            class="bi bi-chevron-down"></i></a>
-                    <ul>
-                        <li><a href="diagnostic.html">Clinical Diagnostics</a></li>
-                        <li><a href="food-safety.html">Food Safety</a></li>
-                        <li><a href="bioDefense.html">BioDefense</a></li>
-                    </ul>
-                </li>
-                <li><a class="nav-link scrollto" href="technology.html">Technology</a></li>
-                <li><a class="getstarted scrollto" href="contact.html">CONTACT US <i
-                            class="bi bi-chevron-right"></i></a>
-                </li>
+              <li><a href="diagnostic.html">Clinical Diagnostics</a></li>
+              <li><a href="food-safety.html">Food Safety</a></li>
+              <li><a href="bioDefense.html">Biodefense</a></li>
             </ul>
-            <i class="bi bi-list mobile-nav-toggle"></i>
-        </nav><!-- .navbar -->
+          </li>
+          <li><a class="nav-link scrollto" href="technology.html">Technology</a></li>
+          <li><a class="getstarted scrollto" href="contact.html">CONTACT US <i class="bi bi-chevron-right"></i></a>
+          </li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
 
     </div>
-</header><!-- End Header -->
+  </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="hero d-flex align-items-center">
+  <!-- <section id="hero" class="hero d-flex align-items-center">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 d-flex flex-column justify-content-center">
@@ -80,8 +73,82 @@
         </div>
       </div>
     </div>
+  </section> -->
+  <!-- End Hero -->
 
-  </section><!-- End Hero -->
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="10000">
+    <div class="carousel-indicators">
+      <div class="wrap-btn">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active btn"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="btn"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="btn"
+          aria-label="Slide 3"></button>
+      </div>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <section id="hero" class="hero d-flex align-items-center">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 d-flex flex-column justify-content-center">
+                <h1 data-aos="fade-up">Our detection platforms cover a <span>wide range of industries</span> with
+                  dedicated
+                  products using <span>technologies</span> that match our customers' needs.</h1>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="carousel-item">
+        <section id="hero" class="hero hero-carousel d-flex align-items-center">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 d-flex flex-column justify-content-center">
+                <img style="width: 350px;" src="/assets/img/hero/hero-1.png" alt="">
+              </div>
+              <div class="col-lg-8 d-flex flex-column justify-content-center">
+                <h1 data-aos="fade-up">Camtech offers products to enhance testing for COVID-19</h1>
+                <h5 class="mt-4">With a selected range of approved COVID-19 test kits we are helping our
+                  customers to identify
+                  active and past COVID cases and increasing screening capacity.</h5>
+                <a class="btn-view mt-4">VIEW Covid-19 TEST KITS</a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="carousel-item">
+        <section id="hero-carousel" class="hero-carousel d-flex align-items-center">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-7 d-flex flex-column justify-content-center">
+                <h1 data-aos="fade-up">World’s first quick test for 3-MCPD & GE in edible oils</h1>
+                <h5>Our specifically developed rapid test kit for 3-MCPD (3-monochloropropane-1,2-diol or
+                  3-chloropropane-1,2-diol) and glycidyl esters can detect these carcinogenic compounds found in edible
+                  oils and fats with high sensitivity.</h5>
+              </div>
+              <div class="col-lg-5 d-flex flex-column justify-content-center">
+                <img style="width: 400px;" src="/assets/img/hero/hero-2.png" alt="">
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
 
   <main id="main">
 
@@ -157,7 +224,9 @@
             <ul class="list-unstyled">
               <li>3-MCPDE & GE Rapid test kit</li>
               <li>Mycotoxin test kits</li>
-              <li>Camthrax Biothreat Detector</li>
+              <li>BluLine Portable Fecal Detector</li>
+              <li>Qualitative Rapid Test Kits</li>
+              <li>ELISA Test Kits </li>
             </ul>
           </div>
 
@@ -306,12 +375,15 @@
               <div class="col-lg-6 col-md-4 footer-contact text-md-start">
                 <h4>CONNECT WITH US</h4>
                 <div class="social-links my-3">
-                  <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-                  <a href="#" class="instagram"><i class="bi bi-instagram bx bxl-instagram"></i></a>
+                  <a href="https://www.facebook.com/Camtech-Health-100225491776079" target="_blank"><i
+                      class="bi bi-facebook"></i></a>
+                  <a href="https://www.instagram.com/camtechhealth/" target="_blank"><i
+                      class="bi bi-instagram bx bxl-instagram"></i></a>
                   <a href="#" class="linkedin"><i class="bi bi-linkedin bx bxl-linkedin"></i></a>
-                  <a href="#" class="youtube"><i class="bi bi-youtube"></i></a>
+                  <a href="https://www.youtube.com/channel/UCVLQr-JSL0HYwBM7CiP5hZg" target="_blank" class="youtube"><i
+                      class="bi bi-youtube"></i></a>
                 </div>
-                <p>info@camtech.org</p>
+                <a class="text-white text-decoration-underline" href="mailto: info@camtech.org">info@camtech.org</a>
               </div>
             </div>
           </div>
