@@ -2789,6 +2789,8 @@ section {
 }
 
 .btn-visit-footer {
+  text-align: center;
+  margin: 20px auto;
   border-radius: 5px;
   border: 1px solid #107ab7;
   padding: 12px 24px;
@@ -3073,6 +3075,9 @@ section {
 }
 
 @media (max-width: 480px) {
+  .btn-visit-footer {
+    width: 100%;
+  }
   .btn-download {
     margin: auto;
     width: 100%;
