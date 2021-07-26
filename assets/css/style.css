@@ -70,6 +70,7 @@ section {
 .breadcrumbs {
   padding: 15px 0;
   background: url("../img/title-bg.png");
+  background-repeat: round;
   min-height: 40px;
   margin: 0;
   padding-top: 100px;
@@ -2701,7 +2702,8 @@ section {
 
 /*Add css who we are*/
 .hero-who-we-are {
-  background: url("../img/bg-hero-4.png");
+  background-repeat: round;
+  background-image: url(../img/bg-hero-4.png);
 }
 
 .hero-who-we-are h1 {
@@ -2780,7 +2782,8 @@ section {
 /* Add css diagnostics*/
 
 .hero-diagnostics {
-  background: url("../img/bg-hero-3.png");
+  background-image: url(../img/bg-hero-3.png);
+  background-repeat: round;
 }
 
 .hero-diagnostics h1 {
