@@ -122,7 +122,7 @@
     function (e) {
       if (select("#navbar").classList.contains("navbar-mobile")) {
         e.preventDefault();
-        this.nextElementSibling.classList.toggle("dropdown-active");
+        this.nextElementSibling?.classList.toggle("dropdown-active");
       }
     },
     true

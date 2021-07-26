@@ -71,14 +71,9 @@ section {
   padding: 15px 0;
   background: url("../img/title-bg.png");
   min-height: 40px;
-  margin-top: 82px;
+  margin: 0;
+  padding-top: 100px;
   color: #107ab7;
-}
-
-@media (max-width: 992px) {
-  .breadcrumbs {
-    margin-top: 57px;
-  }
 }
 
 .breadcrumbs h2 {
@@ -1734,6 +1729,54 @@ section {
 
 .recent-blog-posts .post-box:hover .post-img img {
   transform: rotate(6deg) scale(1.2);
+}
+
+.other-product .post-box {
+  margin-bottom: 20px;
+}
+
+.other-product .post-box .post-img {
+  height: 250px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 480px) {
+  .other-product .post-box .post-img {
+    height: 100%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .other-product .post-box .post-img {
+    height: 100%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+  .other-product .post-box .post-img {
+    height: 275px;
+  }
+  .other-product .post-box .post-height-img {
+    height: 220px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+  .other-product .post-box .post-img {
+    height: 180px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+  .other-product .post-box .post-img {
+    height: 180px;
+  }
+}
+
+@media (min-width: 1201px) and (max-width: 1366px) {
+  .other-product .post-box .post-img {
+    height: 220px;
+  }
 }
 
 /*--------------------------------------------------------------
