@@ -517,14 +517,48 @@ section {
   background-size: cover;
 }
 
-.hero-carousel {
+.hero-carousel1 {
   width: 100%;
   height: 100vh;
-  background: url(../img/carousel/bg-carousel-1.png) top center no-repeat !important;
+  background: url(../img/hero/bg-hero-2.png) top center no-repeat;
   background-size: cover;
-  overflow: hidden;
 }
 
+.hero-carousel1 h1 {
+  color: white;
+}
+.hero-carousel1 h5 {
+  color: #1dd6ae;
+}
+
+.hero-carousel2 h1 {
+  color: white;
+}
+.hero-carousel2 h5 {
+  color: #1dd6ae;
+}
+
+.hero-carousel2 {
+  width: 100%;
+  height: 100vh;
+  background: url(../img/hero/bg-hero-3.png) top center no-repeat;
+  background-size: cover;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  width: 5% !important;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: none !important;
+}
+/* .carousel-control-next-icon {
+  background-image: url(/assets/img/next.svg);
+}
+
+.carousel-control-prev-icon {
+  background-image: url(/assets/img/prev.svg); */
 /* .hero-carousel::before {
   content: "";
   display: block;
@@ -586,7 +620,7 @@ section {
   margin: 15px 0 0 0;
 }
 
-.hero .btn-view {
+.btn-view {
   cursor: pointer;
   width: fit-content;
   border-radius: 5px;
@@ -599,7 +633,7 @@ section {
   color: #ffffff;
 }
 
-.hero .btn-view:hover {
+.btn-view:hover {
   background-color: #ffffff;
   color: #1dd6ae;
 }
