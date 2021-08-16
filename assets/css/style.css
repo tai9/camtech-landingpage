@@ -620,6 +620,11 @@ section {
   margin: 15px 0 0 0;
 }
 
+.hero h1 span a {
+  color: #1dd6ae;
+  margin: 15px 0 0 0;
+}
+
 .btn-view {
   cursor: pointer;
   width: fit-content;
@@ -2975,9 +2980,11 @@ section {
 
 .box-feature {
   padding: 20px;
+  text-align: center;
 }
 
 .box-feature .title {
+  margin: 10px 0;
   font-weight: 600;
   font-size: 20px;
   line-height: 32px;
@@ -3295,4 +3302,15 @@ section {
   text-transform: uppercase;
   color: #0b198f;
   cursor: pointer;
+}
+
+.img-index {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.list-product {
+  margin-top: 10px;
+  color: #767676;
+  font-size: 14px;
 }
