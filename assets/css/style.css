@@ -627,7 +627,7 @@ section {
 
 .btn-view {
   cursor: pointer;
-  width: fit-content;
+  width: max-content;
   border-radius: 5px;
   border: 1px solid #ffffff;
   padding: 8px 16px;
@@ -1803,13 +1803,13 @@ section {
 
 @media (min-width: 992px) and (max-width: 1024px) {
   .other-product .post-box .post-img {
-    height: 180px;
+    height: 220px;
   }
 }
 
 @media (min-width: 1024px) and (max-width: 1200px) {
   .other-product .post-box .post-img {
-    height: 180px;
+    height: 220px;
   }
 }
 
@@ -2873,7 +2873,7 @@ section {
   text-transform: uppercase;
   color: #ffffff;
   display: block;
-  width: fit-content;
+  width: max-content;
 }
 
 .btn-visit:hover {
@@ -2901,7 +2901,7 @@ section {
   text-transform: uppercase;
   color: #107ab7;
   display: block;
-  width: fit-content;
+  width: max-content;
 }
 
 .btn-visit-footer:hover {
@@ -2927,7 +2927,7 @@ section {
   text-transform: uppercase;
   color: #107ab7;
   display: block;
-  width: fit-content;
+  width: max-content;
 }
 
 .btn-download:hover {
@@ -2973,7 +2973,7 @@ section {
   text-transform: uppercase;
   color: #fff;
   display: block;
-  width: fit-content;
+  width: max-content;
   display: inline-block;
   background-color: #09d3c2;
 }
@@ -3050,7 +3050,7 @@ section {
   line-height: 24px;
   text-transform: uppercase;
   background-color: #107ab7;
-  width: fit-content;
+  width: max-content;
   display: inline-block;
   color: #fff;
 }
@@ -3306,7 +3306,7 @@ section {
   text-transform: uppercase;
   color: #ffffff;
   display: block;
-  width: fit-content;
+  width: max-content;
 }
 
 .btn-down:hover {
