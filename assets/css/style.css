@@ -2837,7 +2837,7 @@ section {
 /* Add css diagnostics*/
 
 .hero-diagnostics {
-  background-image: url(../img/bg-hero-2.png);
+  background-image: url(../img/bg-hero-3.png);
   background-repeat: round;
 }
 
@@ -3337,4 +3337,8 @@ section {
 }
 .back-to-top:hover {
   background-color: #0b198f;
+}
+
+.tag-hr {
+  color: #d1d0d0;
 }
